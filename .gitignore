@@ -1,0 +1,60 @@
+# Ignore build files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore compiled libraries
+*.lib
+*.dll
+*.dylib
+
+# Ignore temporary or log files
+*.log
+*.tmp
+*.swp
+*~
+
+# Ignore backup files
+*.bak
+
+# Ignore debugging files
+*.dSYM/
+*.pch
+*.pdb
+
+# Ignore any tags or cscope generated files
+tags
+cscope.*
+
+# Ignore user-generated files
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore directory for Code::Blocks
+*.layout
+*.depend
+*.layout.save
+
+# Ignore output directories (optional, in case you use them)
+build/
+bin/
+debug/
+release/
